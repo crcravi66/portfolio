@@ -1,18 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './componenets/Header'
-import Hero from './componenets/Hero'
-import About from './componenets/About'
-import Portfolio from './componenets/Portfolio'
-import Contact from './componenets/Contact'
-import './index.css'
+import App from './App'
+
+
+import * as bootstrap from 'bootstrap'
+import './scss/styles.scss'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <Hero />
-    <About />
-    <Portfolio />
-    <Contact />
+    <App />
   </React.StrictMode>,
 )
