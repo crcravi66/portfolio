@@ -22,7 +22,7 @@ const About = () => {
                                             <p><span className="title-s">Name: </span> <span>Arun pandi</span></p>
                                             <p><span className="title-s">Profile: </span> <span>Front End Developer</span></p>
                                             <p><span className="title-s">Email: </span> <span><a
-                                                href="mailto:crcravi66@gmail.com">crcravi66@gmail.com</a></span></p>
+                                                href="mailto:crcravi66@gmail.com">arunravi166@gmail.com</a></span></p>
                                             <p><span className="title-s">Phone: </span> <span><a href="tel:+918807208076">+91
                                                 8807208076</a></span></p>
 
