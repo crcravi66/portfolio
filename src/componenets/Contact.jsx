@@ -32,7 +32,7 @@ const Contact = () => {
                                             <li><a href="tel:+918807208076" className="bi bi-phone alter-color"></a><a
                                                 href="tel:+918807208076">+91 8807208076</a></li>
                                             <li><a className="bi bi-envelope alter-color" href="mailto:crcravi66@gmail.com"></a><a
-                                                href="mailto:crcravi66@gmail.com"> arunravi166@gmail.com</a></li>
+                                                href="mailto:arunravi166@gmail.com"> arunravi166@gmail.com</a></li>
                                         </ul>
                                     </div>
                                     <div className="socials">
