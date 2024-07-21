@@ -88,7 +88,7 @@ const Portfolio = () => {
                         <div className="work-content">
                             <div className="row">
                                 <div className="col-sm-8">
-                                    <h2 className="w-title">Ref Demo Project(React.js)</h2>
+                                    <h2 className="w-title">React Project Manager(React.js)</h2>
                                     <div className="w-more">
                                         <span className="w-ctegory">Web Design</span>
                                     </div>
