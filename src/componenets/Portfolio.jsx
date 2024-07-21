@@ -4,6 +4,11 @@ import swipeImg from '../assets/img/swipe.jpg'
 import massively from '../assets/img/massively.jpg'
 import hpImg from '../assets/img/hpproject.jpg'
 import RefProject from '../assets/img/React-Ref-Demo-Project.jpeg'
+import investCal from '../assets/img/Investment-Cal.jpeg'
+import elegantContext from '../assets/img/Elegant-context.jpeg'
+import reactQuiz from '../assets/img/React-Quiz.jpeg'
+import formApp from '../assets/img/React-Form.jpeg'
+
 
 const Portfolio = () => {
     return (<section id="work" className="portfolio-mf sect-pt4 route">
@@ -77,13 +82,85 @@ const Portfolio = () => {
                 <div className="col-md-6">
                     <div className="work-box">
                         <div className="work-img">
-                            <a href="https://crcravi66.github.io/Refs_Demo_Project/"><img src={RefProject} alt=""
+                            <a href="https://crcravi66.github.io/react_project_manager/"><img src={RefProject} alt=""
                                 className="img-fluid" /></a>
                         </div>
                         <div className="work-content">
                             <div className="row">
                                 <div className="col-sm-8">
                                     <h2 className="w-title">Ref Demo Project(React.js)</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/investment_calculator/"><img src={investCal} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">Investment Calculator(React.js)</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/elegant_context/"><img src={elegantContext} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">ELEGANT CONTEXT(React.js)</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/react_quiz_app/"><img src={reactQuiz} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">REACT QUIZ(React.js)</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/react_form_input/"><img src={formApp} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">React Forms(React.js)</h2>
                                     <div className="w-more">
                                         <span className="w-ctegory">Web Design</span>
                                     </div>
