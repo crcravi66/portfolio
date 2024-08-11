@@ -17,6 +17,8 @@ const Footer = () => {
         return () => window.removeEventListener('scroll', toggleBacktotop);
     }, []);
 
+    const date = new Date().getFullYear()
+
     return (
         <>
             <footer>
@@ -24,7 +26,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="copyright-box">
-                                <p className="copyright">&copy; Copyright <strong>Arunpadi</strong>. All Rights Reserved</p>
+                                <p className="copyright">&copy; {date}  Copyright <strong>Arunpadi</strong>.  All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

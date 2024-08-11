@@ -1,5 +1,6 @@
 import React from "react";
 import profileImg from '../assets/img/profile.jpg'
+import { start } from "@popperjs/core";
 
 
 const About = () => {
@@ -30,8 +31,8 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="skill-mf">
-                                    <p className="title-s">Skill</p>
-                                    <span>HTML</span> <span className="pull-right">85%</span>
+                                    <p className="title-s">Skills</p>
+                                    <span>HTML5</span> <span className="pull-right " >85%</span>
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="85"
                                             aria-valuemin="0" aria-valuemax="100"></div>
@@ -41,7 +42,22 @@ const About = () => {
                                         <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="75"
                                             aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span>JAVASCRIPT</span> <span className="pull-right">80%</span>
+                                    <span>JavaScript</span> <span className="pull-right">80%</span>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="90"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>React.JS</span> <span className="pull-right">70%</span>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="90"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>Node.JS</span> <span className="pull-right">60%</span>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>Git/GitHub</span> <span className="pull-right">80%</span>
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="90"
                                             aria-valuemin="0" aria-valuemax="100"></div>
@@ -62,8 +78,8 @@ const About = () => {
                                         user needs and business goals.
                                     </p>
                                     <p className="lead">
-                                        Fresher of a UI developer, I've learn for <strong><i>HTML,CSS,JS</i></strong> and devloped my
-                                        coding knoladge
+                                        Fresher of a UI Frontend developer, I've learn for <strong><i>HTML, CSS, JS, React.js, node.js, Responsive Web Design, Git/Github, JQuery,json,</i></strong> and devloped my
+                                        coding knowladge
                                     </p>
                                     <p className="lead">
                                         <strong>Visual Design:</strong> adept at crafting user interfaces that are both visually appealing
@@ -72,7 +88,7 @@ const About = () => {
                                     </p>
                                     <p className="lead">
                                         <strong>Front-End Development :</strong> I'm proficient in various front-end technologies,
-                                        including HTML, CSS, and JavaScript. I have a solid grasp of web development best practices and
+                                        including <strong>HTML, CSS, JavaScript, React.js </strong>. I have a solid grasp of web development best practices and
                                         can write clean, efficient, and maintainable code to bring design mockups to life.
                                     </p>
                                     <p className="lead">
