@@ -8,6 +8,8 @@ import investCal from '../assets/img/Investment-Cal.jpeg'
 import elegantContext from '../assets/img/Elegant-context.jpeg'
 import reactQuiz from '../assets/img/React-Quiz.jpeg'
 import formApp from '../assets/img/React-Form.jpeg'
+import Analytics_dashboard from '../assets/img/Analytics_dashboard.jpg'
+import ReactCRUDApp from '../assets/img/React-CRUD-app.jpg'
 
 
 const Portfolio = () => {
@@ -79,6 +81,46 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div ><h1 className="mb-5 fw-bold fs-3 text-primary w-title ">React Projects :-</h1></div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/analytics-dashboard/"><img src={Analytics_dashboard} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">Analytics Dashboard</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/react-crud-app/"><img src={ReactCRUDApp} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row" >
+                                <div className="col-sm-12" >
+                                    <h2 className="w-title">React CRUD app</h2>
+                                    <div className="d-flex justify-content-evenly" >
+                                        <p className="p-in-portfolio mx-2"> Admin Id : admin@example.com <br /> Password : admin123</p>
+                                        <p className="p-in-portfolio"> User Id : user@example.com <br /> Password : user123</p>
+                                    </div>
+                                    {/* <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-md-6">
                     <div className="work-box">
                         <div className="work-img">
