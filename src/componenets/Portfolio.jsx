@@ -26,60 +26,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-6">
-                    <div className="work-box">
-                        <div className="work-img">
-                            <a href="https://crcravi66.github.io/html-practices/Index.html"><img src={swipeImg} alt=""
-                                className="img-fluid" /></a>
-                        </div>
-                        <div className="work-content">
-                            <div className="row">
-                                <div className="col-sm-8">
-                                    <h2 className="w-title">SWIPE PROJECT</h2>
-                                    <div className="w-more">
-                                        <span className="w-ctegory">Web Design</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="work-box">
-                        <div className="work-img">
-                            <a href="https://crcravi66.github.io/html-practices/massively.html"><img src={massively}
-                                alt="" className="img-fluid" /></a>
-                        </div>
-                        <div className="work-content">
-                            <div className="row">
-                                <div className="col-sm-8">
-                                    <h2 className="w-title">MASSIVELY PROJECT</h2>
-                                    <div className="w-more">
-                                        <span className="w-ctegory">Web Design</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="work-box">
-                        <div className="work-img">
-                            <a href="https://crcravi66.github.io/hp-project/"><img src={hpImg} alt=""
-                                className="img-fluid" /></a>
-                        </div>
-                        <div className="work-content">
-                            <div className="row">
-                                <div className="col-sm-8">
-                                    <h2 className="w-title">HP Project</h2>
-                                    <div className="w-more">
-                                        <span className="w-ctegory">Web Design</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div ><h1 className="mb-5 fw-bold fs-3 text-primary w-title ">React Projects :-</h1></div>
                 <div className="col-md-6">
                     <div className="work-box">
@@ -203,6 +150,61 @@ const Portfolio = () => {
                             <div className="row">
                                 <div className="col-sm-8">
                                     <h2 className="w-title">React Forms(React.js)</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ><h1 className="mb-5 fw-bold fs-3 text-primary w-title ">HTML Projects :-</h1></div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/html-practices/Index.html"><img src={swipeImg} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">SWIPE PROJECT</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/html-practices/massively.html"><img src={massively}
+                                alt="" className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">MASSIVELY PROJECT</h2>
+                                    <div className="w-more">
+                                        <span className="w-ctegory">Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="work-box">
+                        <div className="work-img">
+                            <a href="https://crcravi66.github.io/hp-project/"><img src={hpImg} alt=""
+                                className="img-fluid" /></a>
+                        </div>
+                        <div className="work-content">
+                            <div className="row">
+                                <div className="col-sm-8">
+                                    <h2 className="w-title">HP Project</h2>
                                     <div className="w-more">
                                         <span className="w-ctegory">Web Design</span>
                                     </div>
