@@ -85,8 +85,8 @@ const Header = () => {
                         <li><a onClick={handleMobileNavigation} className="nav-link scrollto active" href="#hero">Home</a></li>
                         <li><a onClick={handleMobileNavigation} className="nav-link scrollto" href="#about">About</a></li>
                         <li><a onClick={handleMobileNavigation} className="nav-link scrollto " href="#work">Work</a></li>
-                        <li><a onClick={handleMobileNavigation} className="nav-link scrollto" href="#contact">Contact</a></li>
                         <li><a onClick={handleMobileNavigation} className="nav-link scrollto " href="https://drive.google.com/file/d/1BcS1K3laEaCnAp8gobipfPRsXrdrRvmW/view?usp=sharing">Resume / CV</a></li>
+                        <li><a onClick={handleMobileNavigation} className="nav-link scrollto" href="#contact">Contact</a></li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileToggle}></i>
                 </nav>
